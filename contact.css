@@ -1,0 +1,30 @@
+body{
+    background: rgb(186, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#formulaire{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background: white;
+    width: 500px;
+    height: 300px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-shrink: 1;
+}
+
+#button{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
