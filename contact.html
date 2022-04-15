@@ -8,17 +8,19 @@
     <title>Contact</title>
 </head>
 <body>
-    <div id="formulaire">
-        <form action="#">
-            <label for="email">E-mail :</label>
-            <input type="email" name="email" id="email">
-            <label for="message">Message :</label>
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
-            <div id="button">
-                <input class="button" type="button" value="Annuler">
-                <input class="button" type="submit" value="Envoyer">
-            </div>
-        </form>
+    <div id="flex-container">
+        <div id="formulaire">
+            <form action="#">
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <div id="button">
+                    <input id="cancel" class="button" type="button" value="Annuler">
+                    <input id="confirm" class="button" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
